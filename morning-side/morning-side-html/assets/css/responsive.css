@@ -1,0 +1,640 @@
+/*------------------------------*/
+/*  Media Query max width 479px */
+/*------------------------------*/
+@media screen and (max-width: 479px){
+/*------------------------------*/
+/*   Header                     */
+/*------------------------------*/
+.top-header{
+	padding: 14px 0px 10px 0px;
+}
+.top-header-left { 
+	width: 40%;
+}
+.top-header-right {
+	width: 60%;
+	padding-top: 0;
+}
+.top-header-right p {
+	font-size: 14px;
+}
+.top-header-right p span{
+	font-size: 18px;
+}
+.top-header-right h5 {
+	font-size: 20px;
+	font-weight: normal;
+}
+/*------------------------------*/
+/*   Menu section               */
+/*------------------------------*/
+.main-menu{
+	display: none;
+}
+.slicknav_menu {
+	display:block;
+}
+/*------------------------------*/
+/*   Bannar Section             */
+/*------------------------------*/
+.bannar-content {
+	padding: 0px  0px 80px 0px;
+}
+.bannar-text {
+	padding: 20px 0px 0px 15px;
+}
+.bannar-text h3 {
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+.bannar-text h4 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.bannar-text p {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.bannar-text p i {
+	padding-right: 4px;
+}
+.bannar-text p span {
+	font-size: 14px;
+}
+.bannar-contact {
+	margin: 15px 0px 0px 15px;
+	width: 90%;
+	height: 40px;
+	box-shadow: 7px 5px #3b5b90;
+	padding-left: 15px;
+}
+.bannar-contact p {
+	font-size: 16px;
+	line-height: 40px;
+}
+.bannar-contact p span {
+	font-size: 20px;
+}
+.bannar-right {
+	padding-top: 250px;
+}
+.image-one {
+	bottom: 2%;
+	right: 50%;
+    transform: translateX(50%);
+    width: 250px
+}
+.image-two {
+	bottom: 0%;
+	right: 50%;
+    transform: translateX(50%);
+    width: 220px
+}
+/*------------------------------*/
+/*   Service Section            */
+/*------------------------------*/
+.service-container {
+	margin-top: 15px;
+}
+.service-container .center-content {
+	padding-top: 15px;
+}
+.service-area {
+	padding: 0px 15px 0px;
+}
+.services  {
+	padding: 0px  0px 18px 0px;
+	float: none;
+	width: 100%;
+}
+.services img  {
+	width: 100%;
+}
+/*------------------------------*/
+/*   Body Content Section       */
+/*------------------------------*/
+.body-content-area {
+	padding: 10px 15px 0px;
+}
+.body-content-left {
+	float: none;
+	width: 100%;
+	padding: 0px 0px 0px;
+}
+.body-content-left h1 {
+	padding-bottom: 10px;
+}
+.body-content-left p {
+	padding-bottom: 10px;
+}
+.body-content-right {
+	float: none;
+	width: 100%;
+	padding: 20px 0px 0px;
+}
+.body-content-right p {
+	padding-bottom: 10px;
+}
+/*------------------------------*/
+/*   Body contact area          */
+/*------------------------------*/
+.body-contact-area {
+	height: 70px;
+}
+.emergency-service{
+	width: 100px;
+	height: 100px;
+	border: 4px solid #bbd1f5;
+	top: -30%;
+    left: 5%;
+    transform: translateX(-5%);
+    box-shadow: 1px 3px #707070;
+}
+.emergency-service h3 {
+	font-size: 22px;
+    line-height: 22px;
+}
+.emergency-service h3 span {
+	font-size: 30px;
+}
+.contact-number {
+	padding-right: 0px;
+}
+.contact-number p {
+	width: 180px;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0px 0px 30px;
+}
+.contact-number p span {
+	font-size: 20px;
+	padding-left: 0px;
+}
+/*------------------------------*/
+/*   testimonial area           */
+/*------------------------------*/
+.testimonial-area {
+	margin-top: 30px;
+}
+.testimonial-image span:before {
+	width: 120%;
+}
+.testimonial-image span:after {
+	width: 120%;
+}
+/*------------------------------*/
+/*   Footer area                */
+/*------------------------------*/
+.top-footer {
+	padding: 20px 0px 20px;
+}
+.top-footer-left-side {
+	float: none;
+	width: 100%;
+	padding-left: 15px;
+}
+.top-footer-left-side h3 {
+	padding-bottom: 5px;
+	text-align: center;
+}
+.service ul li {
+	padding-bottom: 0px;
+}
+.service ul li a {
+	font-size: 11px;
+}
+.top-footer-right-side {
+	float: none;
+	width: 100%;
+	padding: 20px 0px 0px 15px;
+	text-align: center;
+}
+.map {
+	width: 100%;
+	float: none;
+	padding-bottom: 10px;
+}
+.address {
+	float: none;
+	width: 100%;
+	padding-left: 0px;
+}
+.address h4 {
+	padding-bottom: 3px;
+}
+.address ul li {
+	padding-bottom: 3px;
+}
+/*------------------------------*/
+/*  Copyright area              */
+/*------------------------------*/
+.bottom-footer {
+	height: 80px;
+}
+.copyright {
+	width: 100%;
+	float: none;
+	padding-left: 0px;
+}
+.copyright p {
+	text-align: center;
+	font-size: 13px;
+}
+.footer-contact {
+	width: 100%;
+	float: none;
+	padding-right: 15px;
+}
+.footer-contact p {
+	float: none;
+	text-align: center;
+	line-height: 10px;
+}
+}
+/*-----------------------------------------------*/
+/*  Media Query min width 480px max width 599px  */
+/*-----------------------------------------------*/
+@media screen and (min-width: 480px) and (max-width: 599px) {
+/*------------------------------*/
+/*   header contact             */
+/*------------------------------*/	
+.top-header-right p span {
+    font-size: 20px;
+}
+/*------------------------------*/
+/*   Bannar Section             */
+/*------------------------------*/
+.bannar-content {
+	padding: 15px  22px 100px 27px;
+}
+.bannar-text {
+	padding: 0;
+}
+.bannar-text h3 {
+	font-size: 27px;
+	margin-bottom: -5px;
+}
+.bannar-text h4 {
+	font-size: 34px;
+	margin-bottom: 10px;
+}
+.bannar-text p {
+	margin-bottom: 5px;
+}
+.bannar-text p i {
+	padding-right: 5px;
+}
+.bannar-contact {
+	margin-top: 15px;
+	width: 90%;
+	height: 60px;
+	padding-left: 15px;
+}
+.bannar-contact p {
+	font-size: 22px;
+	line-height: 60px;
+}
+.bannar-contact p span {
+	font-size: 34px;
+}
+.bannar-right {
+	padding-top: 250px;
+}
+.image-one {
+	bottom: 2%;
+	right: 50%;
+    transform: translateX(50%);
+    width: 250px
+}
+.image-two {
+	bottom: 0%;
+	right: 50%;
+    transform: translateX(50%);
+    width: 220px
+}
+}
+/*-----------------------------------------------*/
+/*  Media Query min width 600px max width 767px  */
+/*-----------------------------------------------*/
+@media screen and (min-width: 600px) and (max-width: 767px) {
+.bannar-content {
+	padding: 0px  15px 100px 15px;
+}
+.bannar-text {
+	padding-left: 10px;
+}
+.bannar-text h3 {
+	font-size: 28px;
+	margin-bottom: -6px;
+}
+.bannar-text h4 {
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+.bannar-text p {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.bannar-text p i {
+	padding-right: 8px;
+}
+.bannar-text p span {
+	font-size: 14px;
+}
+.image-one {
+	width: 250px;
+}
+.image-two {
+	width: 220px;
+}
+.bannar-contact {
+	height: 60px;
+    padding-left: 15px;
+}
+.bannar-contact p {
+	line-height: 60px;
+    font-size: 18px;
+}
+.bannar-contact p span {
+    font-size: 24px;
+}
+}
+/*-----------------------------------------------*/
+/*  Media Query min width 480px max width 767px  */
+/*-----------------------------------------------*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+/*------------------------------*/
+/*   Header                     */
+/*------------------------------*/
+.top-header{
+	padding: 14px 0px 10px 0px;
+}
+.top-header-left {
+	width: 40%;
+}
+.top-header-right {
+	width: 60%;
+	padding-top: 0;
+}
+.top-header-right h4 {
+	font-size: 16px;
+}
+.top-header-right h4 span{
+	font-size: 22px;
+}
+.top-header-right h5 {
+	font-size: 30px;
+	font-weight: bold;
+}
+/*------------------------------*/
+/*   Menu section               */
+/*------------------------------*/
+.main-menu{
+	display: none;
+}
+.slicknav_menu {
+	display:block;
+}
+/*------------------------------*/
+/*   Service Section            */
+/*------------------------------*/
+.service-container {
+	margin-top: 15px;
+}
+.service-container .center-content {
+	padding-top: 15px;
+}
+.service-area {
+	padding: 0px 15px 0px;
+}
+.services  {
+	padding: 0px  0px 18px 0px;
+	float: none;
+	width: 100%;
+}
+.services img  {
+	width: 100%;
+}
+/*------------------------------*/
+/*   Body Content Section       */
+/*------------------------------*/
+.body-content-area {
+	padding: 0px;
+}
+.body-content-left {
+	padding: 0px 8px 0px 15px;
+}
+.body-content-left h1 {
+	padding-bottom: 15px;
+}
+.body-content-left p {
+	padding-bottom: 15px;
+}
+.body-content-right {
+	padding: 33px 15px 0px 7px;
+}
+.body-content-right p {
+	padding-bottom: 15px;
+}
+/*------------------------------*/
+/*   Body contact area          */
+/*------------------------------*/
+.body-contact-area {
+	height: 70px;
+}
+.emergency-service{
+	width: 120px;
+	height: 120px;
+	border: 5px solid #bbd1f5;
+	top: -40%;
+    left: 4%;
+    transform: translateX(-4%);
+}
+.emergency-service h3 {
+	font-size: 28px;
+    line-height: 25px;
+}
+.emergency-service h3 span {
+	font-size: 36px;
+}
+.contact-number {
+	padding-right: 10px;
+}
+.contact-number p {
+	font-size: 20px;
+	line-height: 70px;
+}
+.contact-number p span {
+	font-size: 26px;
+	padding-left: 0px;
+}
+/*------------------------------*/
+/*   testimonial area           */
+/*------------------------------*/
+.testimonial-image span:before {
+	width: 240%;
+}
+.testimonial-image span:after {
+	width: 240%;
+}
+/*------------------------------*/
+/*   Footer area                */
+/*------------------------------*/
+.top-footer {
+	padding: 20px 0px 20px;
+}
+.top-footer-left-side {
+	float: none;
+	width: 100%;
+	padding-left: 15px;
+}
+.top-footer-left-side h3 {
+	padding-bottom: 5px;
+}
+.service ul li {
+	padding-bottom: 3px;
+}
+.top-footer-right-side {
+	float: none;
+	width: 100%;
+	padding: 20px 0px 0px 15px;
+}
+.top-footer-right-side h3 {
+	padding-bottom: 10px;
+}
+.address h4 {
+	padding-bottom: 5px;
+}
+.address ul li {
+	padding-bottom: 3px;
+}
+/*------------------------------*/
+/*  Copyright area              */
+/*------------------------------*/
+.bottom-footer {
+	height: 80px;
+}
+.copyright {
+	width: 100%;
+	float: none;
+	padding-left: 0px;
+}
+.copyright p {
+	text-align: center;
+	font-size: 13px;
+}
+.footer-contact {
+	width: 100%;
+	float: none;
+	padding-right: 15px;
+}
+.footer-contact p {
+	float: none;
+	text-align: center;
+	line-height: 10px;
+}
+}
+/*-----------------------------------------------*/
+/*  Media Query min width 768px max width 949px  */
+/*-----------------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 949px) {
+/*------------------------------*/
+/*   Menu section               */
+/*------------------------------*/
+.top-header {
+    padding-left:0px;
+}
+.main-menu{
+	display: none;
+}
+.slicknav_menu {
+	display:block;
+}
+/*------------------------------*/
+/*   Bannar Section             */
+/*------------------------------*/
+.bannar-content {
+    padding: 0px 22px 118px 27px;
+}
+.bannar-text h3 {
+	font-size: 26px;
+	margin-bottom: -7px;
+}
+.bannar-text h4 {
+	font-size: 32px;
+}
+.bannar-contact{
+	margin-left: 15px;
+	padding-left: 20px;
+}
+.bannar-contact p {
+	font-size: 22px;
+	line-height: 71px;
+}
+.bannar-contact p span {
+	font-size: 28px;
+}
+.image-one {
+	width: 335px;
+}
+.image-two {
+	width: 300px;
+}
+/*------------------------------*/
+/*   Service Section            */
+/*------------------------------*/
+.service-container {
+	margin-top: 15px;
+}
+.service-container .center-content {
+	padding-top: 15px;
+}
+.service-area {
+	padding: 0px 10px 0px;
+}
+.services  {
+	float: left;
+	width: 50%;
+	padding: 0px  11px 18px;
+}
+.services img{
+	width: 100%;
+}
+/*------------------------------*/
+/*   body contact Section       */
+/*------------------------------*/
+.emergency-service{
+    left: 5%;
+    transform: translateX(-5%);
+}
+.contact-number {
+	float: right;
+	padding-right: 30px;
+}
+/*------------------------------*/
+/*   testimonial area           */
+/*------------------------------*/
+.testimonial-area {
+	margin-top: 70px;
+}
+.testimonial-image span:before {
+	width: 425%;
+}
+.testimonial-image span:after {
+	width: 425%;
+}
+.owl-prev{
+	position: absolute;
+    left: 44%;
+    top: 68%;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+}
+.owl-next{
+	position: absolute;
+    right: 44%;
+    top: 68%;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+}
+}
